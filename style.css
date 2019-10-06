@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lists{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-around
+}
+.lists>#first, #second, #third{
+    border: solid 1px tomato;
+    margin:1rem;
+    width: 30%;
+    padding: 1rem;
+}
+.card{
+    display: flex;
+    height:3rem;
+    align-items:center;
+    padding:0.5rem;
+}
+.selected{
+    background-color:tomato
+}
+button{
+    width:100%;
+    height:2rem;
+}
+#first>#right, #second button, #third>#left{
+    background-color: tomato;
+}
